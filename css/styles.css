@@ -151,3 +151,60 @@ h2 {
     padding: 3% 2%;
     
 }
+
+@media (max-width: 1028px) {
+
+#title {
+    text-align: center;
+}
+
+.title-image {
+    position: static;
+    transform: rotate(0);
+    }
+}
+
+/* FOOTER */
+
+#cta {
+    padding: 7% 15%;
+    text-align: center; 
+    background-color: #ff4c68;
+}
+.cta-heading {
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+    font-size: 2.5rem;
+}
+
+/* FOOOTER */
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-copyrights {
+    color: #8f8f8f;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.link-items {
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.link-item {
+    margin-right: 20px;
+}
+
+.fa-envelope {
+    margin-bottom: 0;
+}
