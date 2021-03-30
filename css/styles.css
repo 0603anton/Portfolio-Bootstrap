@@ -1,210 +1,179 @@
+
 body {
-    font-family: "Montserrat";
+  font-family: "Montserrat";
+  text-align: center;
 }
 
-#title {
-    background-color: #ff4c68 ;
-    color: white;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
 }
 
-h1 {
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-family: "Montserrat";
-    font-weight: 900;
+p {
+  color: #8f8f8f;
 }
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
 
 .container-fluid{
-    padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
-.fa-apple{
-    padding-right: 5px;
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
 }
 
-.fa-google-play{
-    padding-right: 5px;
+.white-section {
+  background-color: #fff;
 }
 
-/* Nvigation bar */
-
-.navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
-}
+/* Navigation Bar */
 
 .navbar {
-    padding: 0 0 4.5rem;
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .nav-item {
-    padding: 0 18px;
+  padding: 0 18px;
 }
 
 .nav-link {
-    
-    font-size: 1.2rem;
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
 }
 
-/* BUTTONS */
+/* Buttons */
 
 .download-button {
-    margin: 5% 3% 5% 0;
+  margin: 5% 3% 5% 0;
 }
 
-/* TITILE IMAGE */
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
 
 .title-image {
-    width:60%;
-    transform: rotate(25deg);
-    position: absolute;
-    right: 30%;
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
+/* Features Section */
 
-
-/* FEATURES */
 #features {
-    background-color: white;
-    z-index: 1;
-    position: relative;
+  position: relative;
 }
 
-.feature-box{
-    text-align:center;
-    padding: 4.5%;
-    }
-
-h3 {
-    font-family: "Montserrat";
-    font-weight: 700;
-    font-size: 1.5rem;
+.feature-title {
+  font-size: 1.5rem;
 }
 
-.feature-box p {
-color: #8f8f8f;
+.feature-box {
+  padding: 4.5%;
 }
 
-.fas {
-    color: #ef8172;
-    margin-bottom: 1rem;
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
 }
 
-.fas:hover {
-    color: #ff4c68;
+.icon:hover {
+  color: #ff4c68;
 }
 
-.feature-main-box {
-    padding: 7% 15%;
-   
-}
-
-/* TESTEMONIALS */
+/* Testimonial Section */
 
 #testimonials {
-    padding: 7% 15%;
-    text-align: center;
-    background-color: #ff4c68;
-    color: white;
+  background-color: #ef8172;
 }
 
-h2 {
-    
-    font-family: "Montserrat";
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 1.5;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-.testimonials-img{
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
 
 #press {
-    padding: 7% 15%;
-    text-align: center;
-    background-color: #ff4c68;
-    color: white;
-    padding-bottom: 3%;
+  background-color: #ef8172;
+  padding-bottom: 3%;
 }
 
 .press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 
-/* pricing SECTION */
+/* Pricing Section */
 
 #pricing {
-    padding: 7% 15%;
-    text-align: center;
+  padding: 100px;
 }
 
-.pricing-column{
-    padding: 3% 2%;
-    
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
 
-#title {
+  #title {
     text-align: center;
-}
+  }
 
-.title-image {
+  .title-image {
     position: static;
     transform: rotate(0);
-    }
-}
-
-/* FOOTER */
-
-#cta {
-    padding: 7% 15%;
-    text-align: center; 
-    background-color: #ff4c68;
-}
-.cta-heading {
-    font-family: "Montserrat";
-    font-weight: 700;
-    line-height: 1.5;
-    color: white;
-    font-size: 2.5rem;
-}
-
-/* FOOOTER */
-
-#footer {
-    text-align: center;
-    padding: 7% 15%;
-}
-
-.footer-copyrights {
-    color: #8f8f8f;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.link-items {
-    margin-top: 3%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.link-item {
-    margin-right: 20px;
-}
-
-.fa-envelope {
-    margin-bottom: 0;
+  }
 }
